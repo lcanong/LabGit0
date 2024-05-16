@@ -1,7 +1,7 @@
 #Add dnu to path
 Write-Verbose "Add dnu to path for this session."
 Invoke-Expression "$env:USERPROFILE\.dnx\bin\dnvm.ps1 use default"
-
+#Primer cambio
 # Temporarily, add web tools to path, if not already included.
 $pathToWebTools = "$env:VS140COMNTOOLS..\IDE\Extensions\Microsoft\Web Tools\External\"
 if (!$env:Path.Contains($pathToWebTools)){
