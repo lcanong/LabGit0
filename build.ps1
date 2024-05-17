@@ -1,4 +1,4 @@
-[CmdletBinding()]
+[CmdletBinding()] (add change)
 Param(
 	[Parameter(Mandatory=$True, Position=1)] [string] $BuildConfiguration,
 	[Parameter(Mandatory=$True, Position=2)] [string] $BuildDir,
